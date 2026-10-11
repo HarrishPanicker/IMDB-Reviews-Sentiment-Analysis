@@ -61,5 +61,5 @@ Among the tested models, **DistilBERT** achieved the highest overall accuracy an
 
 ## Group Contributors
 
-* **Leong Kah Hang** (1221305975)
-* **Harrish Panicker** (1221308940) — *Model Training & Insight Derivation*
+* **Leong Kah Hang** 
+* **Harrish Panicker**  — *Model Training & Insight Derivation*
