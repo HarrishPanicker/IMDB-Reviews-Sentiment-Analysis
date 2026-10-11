@@ -63,3 +63,5 @@ Among the tested models, **DistilBERT** achieved the highest overall accuracy an
 
 * **Leong Kah Hang** 
 * **Harrish Panicker**  — *Model Training & Insight Derivation*
+
+P.S The summary was generated using Google Gemini summary of our presentation slides.
