@@ -58,7 +58,7 @@ The project follows a structured multi-phase pipeline:
 
 * **Aspect-Based Sentiment Analysis (ABSA):** Combined `spaCy` for aspect extraction with `VADER` for sentiment polarity scoring over extracted terms.
 
-
+ModelAccuracyNegative F1Neutral F1Positive F1Macro F1VADER (Lexicon)   66.58%   0.45   0.02   0.79   0.42   Logistic Regression   79.50%   0.74   0.26   0.89   0.63   SVM   79.59%   0.74   0.16   0.88   0.60   Random Forest   74.60%   0.59   <0.01   0.84   0.48   DistilBERT   79.80%   0.76   0.39   0.89   0.68   
 
 
 
@@ -70,53 +70,6 @@ The project follows a structured multi-phase pipeline:
 
 Among the tested models, **DistilBERT** achieved the highest overall accuracy and macro F1-score, particularly excelling at detecting neutral text where lexicon baselines struggled.
 
-| Model | Accuracy | Negative F1 | Neutral F1 | Positive F1 | Macro F1 |
-| --- | --- | --- | --- | --- | --- |
-| **VADER (Lexicon)**<br> | 66.58%
-
- | 0.45
-
- | 0.02
-
- | 0.79
-
- | 0.42
-
- |
-| **Logistic Regression**<br> | 79.50%
-
- | 0.74
-
- | 0.26
-
- | 0.89
-
- | 0.63
-
- |
-| **SVM**<br> | 79.59%
-
- | 0.74
-
- | 0.16
-
- | 0.88
-
- | 0.60
-
- |
-| **Random Forest**<br> | 74.60%
-
- | 0.59
-
- | <0.01
-
- | 0.84
-
- | 0.48
-
- |
-| **DistilBERT**<br> | **79.80%**<br> | **0.76**<br> | **0.39**<br> | **0.89**<br> | **0.68**<br> |
 
 ### Aspect-Based Sentiment Analysis (ABSA) Insights
 
